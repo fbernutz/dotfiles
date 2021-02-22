@@ -12,7 +12,8 @@ eval "$(rbenv init -)"
 
 export PATH="$HOME/bin":$PATH
 
-export PROMPT="%T %~ > "
+# blue directory plus ">"
+export PROMPT=$'\e[1;34m%~ > \e[0m'
 
 if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
   __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
