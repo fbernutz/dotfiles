@@ -1,0 +1,20 @@
+# for fastlane
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# for flutter
+export PATH="$HOME/Developer/flutter/bin":$PATH
+
+# for ruby
+export GEM_PATH=$HOME/.gem/ruby/2.6.0
+export PATH="$GEM_PATH/bin":"$HOME/.rbenv/bin":$PATH
+eval "$(rbenv init -)"
+
+export PATH="$HOME/bin":$PATH
+
+export PROMPT="%T %~ > "
+
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi

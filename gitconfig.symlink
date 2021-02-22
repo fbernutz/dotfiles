@@ -1,0 +1,7 @@
+[core]
+	excludesfile = /Users/feliziabernutz/.gitignore_global
+[user]
+	name = Felizia Bernutz
+	email = felizia.bernutz@gmx.de
+[rebase]
+	autoStash = true

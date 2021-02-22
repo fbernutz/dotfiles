@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Links all symlink files in directory to home directory
+for SYMLINK in *.symlink
+do 
+    DEST="${SYMLINK%.symlink}"
+    DEST="$HOME/.$DEST"
+    rm -f "$DEST"
+    ln -s ".dotfiles/$SYMLINK" "$DEST"
+done
