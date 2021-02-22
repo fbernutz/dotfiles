@@ -6,7 +6,7 @@ This repo contains one (maybe more in the future) dotfiles.
 
 To setup these dotfiles initially, run the following commands in your terminal:
 
-```ssh
+```zsh
 cd 
 git clone git@github.com:fbernutz/dotfiles.git .dotfiles
 cd .dotfiles
