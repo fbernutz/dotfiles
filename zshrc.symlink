@@ -2,9 +2,6 @@
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# for flutter
-export PATH="$HOME/Developer/flutter/bin":$PATH
-
 # for ruby
 export PATH="/usr/local/opt/ruby/bin":"$HOME/.rbenv/bin":$PATH
 eval "$(rbenv init -)"
