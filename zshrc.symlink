@@ -6,7 +6,9 @@ export LC_ALL=en_US.UTF-8
 export PATH="/usr/local/opt/ruby/bin":"$HOME/.rbenv/bin":$PATH
 eval "$(rbenv init -)"
 
+# for custom executables
 export PATH="$HOME/bin":$PATH
 
+# for prompt: 
 # blue directory plus ">"
 export PROMPT=$'%F{blue}%~ > %F{none}'
