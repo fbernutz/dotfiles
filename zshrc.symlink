@@ -6,8 +6,7 @@ export LC_ALL=en_US.UTF-8
 export PATH="$HOME/Developer/flutter/bin":$PATH
 
 # for ruby
-export GEM_PATH=$HOME/.gem/ruby/2.6.0
-export PATH="$GEM_PATH/bin":"$HOME/.rbenv/bin":$PATH
+export PATH="/usr/local/opt/ruby/bin":"$HOME/.rbenv/bin":$PATH
 eval "$(rbenv init -)"
 
 export PATH="$HOME/bin":$PATH
