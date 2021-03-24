@@ -5,3 +5,5 @@
 	email = felizia.bernutz@gmx.de
 [rebase]
 	autoStash = true
+[init]
+	defaultBranch = main
